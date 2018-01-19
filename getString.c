@@ -88,17 +88,6 @@ void getStringR(char *table)
     for (i=0; i<TAB_SIZE; ++i)
         printf("%c ", *(table+i));
 }
-/*
-pierwiastek(int a) <--- zwraraca pierwiastek liczby a
-
-printf("%d",pierwiastek(16)*3)
-sizeof(typ)
-sizeof(int) -- 4
-sizeof(char) -- 4
-
-printf("%d",sizeof(char)*4)
-*/
-
 int main()
 {
     char *table = malloc(sizeof(char)*TAB_SIZE); //malloc przydziela ilosc pamieci ktora wyrzuca sizeof(char)*TAB_SIZE
@@ -116,7 +105,8 @@ int main()
 
     //Zad 14.
     //getStringR(tableR);
-printf("\n");
+
+	printf("\n");
 
     return 0;
 }
